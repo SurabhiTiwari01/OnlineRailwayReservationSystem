@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj": {}
+    "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj": {
+    "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj",
+        "projectUniqueName": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj",
         "projectName": "RailwayReservationManagementSystem",
-        "projectPath": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj",
+        "projectPath": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj",
         "packagesPath": "C:\\Users\\SURABTIW\\.nuget\\packages\\",
-        "outputPath": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\obj\\",
+        "outputPath": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -72,7 +72,11 @@
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.3, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[47.4.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

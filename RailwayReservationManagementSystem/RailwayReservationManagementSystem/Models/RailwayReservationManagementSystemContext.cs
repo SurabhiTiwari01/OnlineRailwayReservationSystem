@@ -25,6 +25,8 @@ public partial class RailwayReservationManagementSystemContext : DbContext
 
     public virtual DbSet<Train> Trains { get; set; }
 
+    public virtual DbSet<User> Users { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("server=(localdb)\\MsSqlLocalDb;Trusted_Connection=True;Database=RailwayReservationManagementSystem;TrustServerCertificate=yes");
@@ -61,21 +63,32 @@ public partial class RailwayReservationManagementSystemContext : DbContext
 
             entity.Property(e => e.PaymentId).HasColumnName("PaymentID");
             entity.Property(e => e.Amount).HasColumnType("decimal(10, 2)");
+            entity.Property(e => e.ErrorMessage)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.PaymentDate).HasColumnType("datetime");
+            entity.Property(e => e.PaymentMethod)
+                .HasMaxLength(255)
+                .IsUnicode(false);
             entity.Property(e => e.PaymentStatus).HasMaxLength(50);
-            entity.Property(e => e.ReservationId).HasColumnName("ReservationID");
+            entity.Property(e => e.ReservationId)
+                .HasMaxLength(10)
+                .IsUnicode(false)
+                .HasColumnName("ReservationID");
 
             entity.HasOne(d => d.Reservation).WithMany(p => p.Payments)
                 .HasForeignKey(d => d.ReservationId)
-                .HasConstraintName("FK__Payment__Reserva__36B12243");
+                .HasConstraintName("FK__Payment");
         });
 
         modelBuilder.Entity<Reservation>(entity =>
         {
-            entity.HasKey(e => e.ReservationId).HasName("PK__Reservat__B7EE5F04912FB8DF");
-
             entity.ToTable("Reservation");
 
-            entity.Property(e => e.ReservationId).HasColumnName("ReservationID");
+            entity.Property(e => e.ReservationId)
+                .HasMaxLength(10)
+                .IsUnicode(false)
+                .HasColumnName("ReservationID");
             entity.Property(e => e.PassengerId).HasColumnName("PassengerID");
             entity.Property(e => e.Pnrnumber)
                 .HasMaxLength(50)
@@ -107,6 +120,22 @@ public partial class RailwayReservationManagementSystemContext : DbContext
             entity.Property(e => e.SourceStation).HasMaxLength(100);
             entity.Property(e => e.TicketFare).HasColumnType("decimal(10, 2)");
             entity.Property(e => e.TrainName).HasMaxLength(100);
+        });
+
+        modelBuilder.Entity<User>(entity =>
+        {
+            entity.HasKey(e => e.UserId).HasName("PK__Users__1788CC4C28367BF1");
+
+            entity.Property(e => e.UserId).ValueGeneratedNever();
+            entity.Property(e => e.PasswordHash)
+                .HasMaxLength(8)
+                .IsUnicode(false);
+            entity.Property(e => e.Role)
+                .HasMaxLength(10)
+                .IsUnicode(false);
+            entity.Property(e => e.Username)
+                .HasMaxLength(20)
+                .IsUnicode(false);
         });
 
         OnModelCreatingPartial(modelBuilder);

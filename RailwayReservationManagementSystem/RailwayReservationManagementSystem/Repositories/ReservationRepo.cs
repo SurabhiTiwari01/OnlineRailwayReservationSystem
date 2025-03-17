@@ -15,10 +15,9 @@ namespace RailwayReservationManagementSystem.Repositories
 
         public async Task<Reservation> GetReservationByPNRAsync(string pnr)
         {
-            return await _context.Reservations
-                                 .Include(r => r.Passenger)
-                                 .Include(r => r.Train)
-                                 .FirstOrDefaultAsync(r => r.Pnrnumber == pnr);
+            return await _context.Reservations.Where(r => r.Pnrnumber == pnr).FirstOrDefaultAsync();
+
+
         }
 
         public async Task<IEnumerable<Reservation>> GetReservationsByPassengerAsync(int passengerId)

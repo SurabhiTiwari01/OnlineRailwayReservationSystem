@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using RailwayReservationManagementSystem.Interfaces;
 using RailwayReservationManagementSystem.Models;
 
@@ -17,7 +18,7 @@ namespace RailwayReservationManagementSystem.Controllers
             _passengerRepository = passengerRepository;
         }
         // GET: api/Passenger
-        [HttpGet]
+        [HttpGet("GetAllPassengers")]
         public async Task<ActionResult<IEnumerable<Passenger>>> GetAllPassengers()
         {
             var passengers = await _passengerRepository.GetAllPassengersAsync();
@@ -25,7 +26,7 @@ namespace RailwayReservationManagementSystem.Controllers
         }
 
         // GET: api/Passenger/{id}
-        [HttpGet("{id}")]
+        [HttpGet("GetPassengerById/{id}")]
         public async Task<ActionResult<Passenger>> GetPassengerById(int id)
         {
             var passenger = await _passengerRepository.GetPassengerByIdAsync(id);
@@ -37,7 +38,8 @@ namespace RailwayReservationManagementSystem.Controllers
         }
 
         // POST: api/Passenger
-        [HttpPost]
+        [HttpPost("AddPassenger")]
+        [Authorize]
         public async Task<ActionResult<Passenger>> CreatePassenger(Passenger passenger)
         {
             await _passengerRepository.AddPassengerAsync(passenger);
@@ -45,7 +47,8 @@ namespace RailwayReservationManagementSystem.Controllers
         }
 
         // PUT: api/Passenger/{id}
-        [HttpPut("{id}")]
+        [HttpPut("UpdatePassenger/{id}")]
+        [Authorize]
         public async Task<IActionResult> UpdatePassenger(int id, Passenger passenger)
         {
             if (id != passenger.PassengerId)
@@ -58,7 +61,8 @@ namespace RailwayReservationManagementSystem.Controllers
         }
 
         // DELETE: api/Passenger/{id}
-        [HttpDelete("{id}")]
+        [HttpDelete("Delete/{id}")]
+        [Authorize]
         public async Task<IActionResult> DeletePassenger(int id)
         {
             await _passengerRepository.DeletePassengerAsync(id);

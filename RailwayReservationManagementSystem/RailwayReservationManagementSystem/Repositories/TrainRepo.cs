@@ -13,7 +13,7 @@ namespace RailwayReservationManagementSystem.Repositories
             _context = context;
         }
 
-        // Get all trains
+        //Get all trains
         public async Task<IEnumerable<Train>> GetAllTrainsAsync()
         {
             return await _context.Trains.ToListAsync();

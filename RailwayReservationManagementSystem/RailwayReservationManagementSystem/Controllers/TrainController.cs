@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using RailwayReservationManagementSystem.Interfaces;
 using RailwayReservationManagementSystem.Models;
 
@@ -40,6 +41,7 @@ namespace RailwayReservationManagementSystem.Controllers
 
         // POST: api/Train
         [HttpPost]
+        [Authorize(Roles ="Admin")]
         public async Task<ActionResult<Train>> CreateTrain(Train train)
         {
             await _trainRepository.AddTrainAsync(train);
@@ -50,6 +52,7 @@ namespace RailwayReservationManagementSystem.Controllers
 
         // PUT: api/Train/{id}
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateTrain(int id, Train train)
         {
             if (id != train.TrainId)
@@ -69,8 +72,8 @@ namespace RailwayReservationManagementSystem.Controllers
             await _trainRepository.DeleteTrainAsync(id);
             return NoContent();
         }
-    
 
 
-}
+
+    }
 }

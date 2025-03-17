@@ -87,6 +87,22 @@ namespace RailwayReservationManagementSystem.Migrations
                     b.Property<decimal>("Amount")
                         .HasColumnType("decimal(10, 2)");
 
+                    b.Property<string>("ErrorMessage")
+                        .HasMaxLength(255)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(255)");
+
+                    b.Property<bool?>("IsSuccessful")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("PaymentDate")
+                        .HasColumnType("datetime");
+
+                    b.Property<string>("PaymentMethod")
+                        .HasMaxLength(255)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(255)");
+
                     b.Property<string>("PaymentStatus")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -185,6 +201,33 @@ namespace RailwayReservationManagementSystem.Migrations
                         .HasName("PK__Train__8ED2725ADC27AEF5");
 
                     b.ToTable("Train", (string)null);
+                });
+
+            modelBuilder.Entity("RailwayReservationManagementSystem.Models.User", b =>
+                {
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PasswordHash")
+                        .HasMaxLength(8)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(8)");
+
+                    b.Property<string>("Role")
+                        .HasMaxLength(10)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(10)");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(20)");
+
+                    b.HasKey("UserId")
+                        .HasName("PK__Users__1788CC4C28367BF1");
+
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("RailwayReservationManagementSystem.Models.Payment", b =>

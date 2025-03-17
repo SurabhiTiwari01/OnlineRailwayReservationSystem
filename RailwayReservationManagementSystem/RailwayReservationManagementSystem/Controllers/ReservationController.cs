@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RailwayReservationManagementSystem.Interfaces;
+using RailwayReservationManagementSystem.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,36 +10,53 @@ namespace RailwayReservationManagementSystem.Controllers
     [ApiController]
     public class ReservationController : ControllerBase
     {
-        // GET: api/<ReservationController>
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly IReservationRepo _reservationRepository;
+
+        public ReservationController(IReservationRepo reservationRepository)
         {
-            return new string[] { "value1", "value2" };
+            _reservationRepository = reservationRepository;
         }
 
-        // GET api/<ReservationController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        // GET: api/Reservation/{pnr}
+        [HttpGet("{pnr}")]
+        public async Task<ActionResult<Reservation>> GetReservationByPnr(string pnr)
         {
-            return "value";
+            var reservation = await _reservationRepository.GetReservationByPNRAsync(pnr);
+            if (reservation == null)
+            {
+                return NotFound();
+            }
+            return Ok(reservation);
         }
 
-        // POST api/<ReservationController>
+        // POST: api/Reservation
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<ActionResult<Reservation>> CreateReservation(Reservation reservation)
         {
+            await _reservationRepository.AddReservationAsync(reservation);
+            return CreatedAtAction(nameof(GetReservationByPnr), new { pnr = reservation.Pnrnumber }, reservation);
         }
 
-        // PUT api/<ReservationController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // PUT: api/Reservation/{pnr}
+        [HttpPut("{pnr}")]
+        public async Task<IActionResult> UpdateReservation(string pnr, Reservation reservation)
         {
+            if (pnr != reservation.Pnrnumber)
+            {
+                return BadRequest();
+            }
+
+            await _reservationRepository.UpdateReservationAsync(reservation);
+            return NoContent();
         }
 
-        // DELETE api/<ReservationController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        // DELETE: api/Reservation/{pnr}
+        [HttpDelete("{pnr}")]
+        public async Task<IActionResult> CancelReservation(string pnr)
         {
+            await _reservationRepository.CancelReservationAsync(pnr);
+            return NoContent();
         }
+
     }
 }

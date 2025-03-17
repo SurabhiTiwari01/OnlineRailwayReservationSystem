@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RailwayReservationManagementSystem.Models;
 using RailwayReservationManagementSystem.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -31,6 +32,7 @@ namespace RailwayReservationManagementSystem.Controllers
 
         // POST: api/Administrator
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<Administrator>> CreateAdministrator(Administrator administrator)
         {
             await _administratorRepository.AddAdministratorAsync(administrator);
@@ -39,6 +41,7 @@ namespace RailwayReservationManagementSystem.Controllers
 
         // PUT: api/Administrator/{id}
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> UpdateAdministrator(int id, Administrator administrator)
         {
             if (id != administrator.AdminId)

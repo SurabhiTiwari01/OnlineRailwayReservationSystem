@@ -4,6 +4,8 @@ VisualStudioVersion = 17.13.35617.110
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayReservationManagementSystem", "RailwayReservationManagementSystem\RailwayReservationManagementSystem.csproj", "{816C2661-DE25-48D2-8CDD-6C2A5882C531}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMicroservice", "PaymentMicroservice\PaymentMicroservice.csproj", "{08D3F952-452C-41EA-B6FF-76A2D4904FB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,10 @@ Global
 		{816C2661-DE25-48D2-8CDD-6C2A5882C531}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{816C2661-DE25-48D2-8CDD-6C2A5882C531}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{816C2661-DE25-48D2-8CDD-6C2A5882C531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D3F952-452C-41EA-B6FF-76A2D4904FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D3F952-452C-41EA-B6FF-76A2D4904FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D3F952-452C-41EA-B6FF-76A2D4904FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D3F952-452C-41EA-B6FF-76A2D4904FB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

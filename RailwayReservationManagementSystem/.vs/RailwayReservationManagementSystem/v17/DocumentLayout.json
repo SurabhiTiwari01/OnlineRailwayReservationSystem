@@ -1,42 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\",
+  "WorkspaceRootPath": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\repositories\\passengerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|solutionrelative:railwayreservationmanagementsystem\\repositories\\passengerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|solutionrelative:railwayreservationmanagementsystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|solutionrelative:railwayreservationmanagementsystem\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|solutionrelative:railwayreservationmanagementsystem\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|solutionrelative:railwayreservationmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\onlinerailwayreservationsystem\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|solutionrelative:railwayreservationmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\interfaces\\ipaymentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|solutionrelative:railwayreservationmanagementsystem\\interfaces\\ipaymentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\onlinerailwayreservationsystem\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|solutionrelative:railwayreservationmanagementsystem\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\models\\railwayreservationmanagementsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|solutionrelative:railwayreservationmanagementsystem\\models\\railwayreservationmanagementsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\onlinerailwayreservationsystem\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|solutionrelative:railwayreservationmanagementsystem\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\interfaces\\ipassengerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|solutionrelative:railwayreservationmanagementsystem\\interfaces\\ipassengerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\onlinerailwayreservationsystem\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\controllers\\traincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|solutionrelative:railwayreservationmanagementsystem\\controllers\\traincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\onlinerailwayreservationsystem\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|solutionrelative:railwayreservationmanagementsystem\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\onlinerailwayreservationsystem\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|solutionrelative:railwayreservationmanagementsystem\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|c:\\surabhi_folder\\newsprintproject\\onlinerailwayreservationsystem\\railwayreservationmanagementsystem\\railwayreservationmanagementsystem\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816C2661-DE25-48D2-8CDD-6C2A5882C531}|RailwayReservationManagementSystem\\RailwayReservationManagementSystem.csproj|solutionrelative:railwayreservationmanagementsystem\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,116 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "RailwayReservationManagementSystem\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T12:06:54.407Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\Models\\Login.cs",
-              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Models\\Login.cs",
-              "RelativeToolTip": "RailwayReservationManagementSystem\\Models\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:43:09.399Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\appsettings.json",
-              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\appsettings.json",
-              "RelativeToolTip": "RailwayReservationManagementSystem\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-11T11:35:22.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IPaymentRepo.cs",
-              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Interfaces\\IPaymentRepo.cs",
-              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\Interfaces\\IPaymentRepo.cs",
-              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Interfaces\\IPaymentRepo.cs",
-              "RelativeToolTip": "RailwayReservationManagementSystem\\Interfaces\\IPaymentRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T06:44:34.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RailwayReservationManagementSystemContext.cs",
-              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Models\\RailwayReservationManagementSystemContext.cs",
-              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\Models\\RailwayReservationManagementSystemContext.cs",
-              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Models\\RailwayReservationManagementSystemContext.cs",
-              "RelativeToolTip": "RailwayReservationManagementSystem\\Models\\RailwayReservationManagementSystemContext.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T06:44:04.308Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PassengerRepo.cs",
-              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Repositories\\PassengerRepo.cs",
-              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\Repositories\\PassengerRepo.cs",
-              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Repositories\\PassengerRepo.cs",
-              "RelativeToolTip": "RailwayReservationManagementSystem\\Repositories\\PassengerRepo.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAiwCMAAAAyAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Program.cs",
+              "RelativeToolTip": "RailwayReservationManagementSystem\\Program.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwFgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T06:09:50.416Z",
+              "WhenOpened": "2025-03-17T11:22:58.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\Services\\TokenService.cs",
-              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Services\\TokenService.cs",
-              "RelativeToolTip": "RailwayReservationManagementSystem\\Services\\TokenService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwB4AAAA5AAAAAAAAAA==",
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "RailwayReservationManagementSystem\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwCYAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T11:50:19.646Z"
+              "WhenOpened": "2025-03-17T10:24:35.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IPassengerRepo.cs",
-              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Interfaces\\IPassengerRepo.cs",
-              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\Interfaces\\IPassengerRepo.cs",
-              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Interfaces\\IPassengerRepo.cs",
-              "RelativeToolTip": "RailwayReservationManagementSystem\\Interfaces\\IPassengerRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "TrainController.cs",
+              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Controllers\\TrainController.cs",
+              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\Controllers\\TrainController.cs",
+              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Controllers\\TrainController.cs",
+              "RelativeToolTip": "RailwayReservationManagementSystem\\Controllers\\TrainController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwDYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T06:42:45.028Z"
+              "WhenOpened": "2025-03-17T11:05:21.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Interfaces\\IUser.cs",
+              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\Interfaces\\IUser.cs",
+              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Interfaces\\IUser.cs",
+              "RelativeToolTip": "RailwayReservationManagementSystem\\Interfaces\\IUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T11:04:15.336Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\Program.cs",
-              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Program.cs",
-              "RelativeToolTip": "RailwayReservationManagementSystem\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAuwD4AAAAkAAAAAAAAAA==",
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\DTO\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\DTO\\RegisterRequest.cs",
+              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\DTO\\RegisterRequest.cs",
+              "RelativeToolTip": "RailwayReservationManagementSystem\\DTO\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T11:20:42.221Z"
+              "WhenOpened": "2025-03-17T11:02:51.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\Services\\UserService.cs",
+              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Services\\UserService.cs",
+              "RelativeToolTip": "RailwayReservationManagementSystem\\Services\\UserService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwCQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T10:23:46.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "RailwayReservationManagementSystem\\Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Surabhi_Folder\\NewSprintProject\\OnlineRailwayReservationSystem\\RailwayReservationManagementSystem\\RailwayReservationManagementSystem\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "RailwayReservationManagementSystem\\Services\\AuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T10:22:26.337Z",
+              "EditorCaption": ""
             }
           ]
         }
